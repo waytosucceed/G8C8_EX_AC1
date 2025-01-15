@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+    table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+        <div class="lesson-title">Algebra Expressions</div>
+        <div>
+          <h2 style="color: rgb(157, 53, 255);">Algebraic Expression:</h2>
+          <p>
+            An algebraic expression is a mathematical statement that combines variables, constants, and mathematical operations (addition, subtraction, multiplication, division).
+            <br><b style="color: rgb(169, 62, 62);">Example:</b> 3x - 2y, -⅖ x2 - 3yz + z, 2mn, 6x, 5a - 2bc, etc.
+          </p>
+          <h2 style="color: rgb(157, 53, 255);">Coefficient part and Literal part: </h2>
+          <p>
+            In the expression 3x - 2y, 3 is the coefficient part and x is the literal part(it is always non-numerical).
+            <br><b style="color: rgb(169, 62, 62);">Example:</b> In <b>4abc</b>, 
+            <br>coefficient of abc is 4,
+            <br>the coefficient of bc is 4a, 
+            <br>the coefficient of c is 4ab.
+            <br><br>
+
+            <b style="color: rgb(157, 53, 255);font-size:larger;">Constants and Variables: </b> The numbers used in the expressions (3x - 2y, -⅖ x<sup>2</sup> - 3yz + z, 2mn, 6x) 3, -2, -⅖ , -3 , 1, 2 and 6 are called constants and x, y, z, m, n, a, b, c are called variables.
+          </p>
+          <h2 style="color: rgb(157, 53, 255);">Terms: </h2>
+          <p>
+            Parts of an expression connected by signs  + and - are called terms of the expression.
+            <br><b style="color: rgb(169, 62, 62);">Example:</b>
+          </p>
+          <ul>
+            <li>3x  and 2y are terms of the expression 3x - 2y,</li>
+            <li>-⅖ x<sup>2</sup>, 3yz and z are the terms of the expression -⅖ x<sup>2</sup> - 3yz + z.</li>
+            <li>2mn is only one term.</li>
+          </ul>
+          <h2 style="color: rgb(157, 53, 255);">Monomial, Binomial, Trinomial:</h2><br>
+          <img src="./assests/explaination/1.png" alt="" width="50%"><br>
+          <p>
+            <b style="color: blue;">Monomial:</b> An expression having only one term is called a <b>monomial</b>.
+            <br><b style="color: rgb(169, 62, 62);">Example:</b> 2x, 7a, 25y<sup>2</sup>, -3/7yz
+<br><br>
+<b style="color: blue;">Binomial:</b> An expression having two terms is called a <b>binomial</b>.
+<br><b style="color: rgb(169, 62, 62);">Example:</b> 2x+3y, 7a-bc, x + 25y<sup>2</sup>, -3/7yz +xz
+<br><br>
+<b style="color: blue;">Trinomial:</b> An expression having three terms is called a <b>trinomial</b>.
+<br><b style="color: rgb(169, 62, 62);">Example:</b> -3yz  + xz + 5xy, -7x + 3y - 4z, 7a - bc - 4c, 2x - 2y + 25y<sup>2</sup>
+<br><br>
+
+An expression having more than 3 terms is called a <b>multi-nominal</b>.
+<br><br>
+Monomial, binomial, trinomial and multinomial are called <b>polynomials</b>.
+          </p>
+          <ul style="color: red;">
+            <li style="color: red"><b>5 is also a polynomial having one term.</b></li>
+          </ul>
+          <p>
+            <b style="color: rgb(169, 62, 62);">NOTE:</b> <b><i>For an algebraic expression to be a polynomial, the powers of the variables should be whole numbers</i></b>
+            <br><b style="color: rgb(169, 62, 62);">Example:</b> 2x<sup>2</sup> + 7z is a polynomial
+            <br>2/y + 5x is not a polynomial.
+            <br>5√x + 7xy is not a polynomial.
+
+          </p>
+          <h2 style="color: rgb(157, 53, 255);">Like and Unlike terms:</h2>
+          <p>
+            <b style="color: blue;">Like terms </b>are terms that have the same variables raised to the same powers.
+            <br><br><b style="color: rgb(169, 62, 62);">Examples:</b>
+
+          </p>
+          <ul>
+            <li>3x and 5x (both have the variable 'x' to the power of 1)</li>
+            <li>-2y² and 7y² (both have the variable 'y' to the power of 2)</li>
+            <li>4a²b and -10ba² (both have the variables 'a' and 'b' to the power of 2 and 1 respectively)</li>
+          </ul>
+          <p>
+            <b style="color: blue;">Unlike terms</b> are terms that have different variables or the same variables raised to different powers.
+            <br><b style="color: rgb(169, 62, 62);">Examples:</b>
+            <br>3x and 5y (different variables)
+            <br>2x² and 7x (same variable, but different powers)
+            <br>4ab and -10a (different variables)
+
+          </p>
+          <ul>
+            <li>
+              If an algebraic expression contains only one variable, say <b>x</b>, it is called an <b>algebraic expression in one variable</b>.
+              <br><b style="color: rgb(169, 62, 62);">Example:</b> 3x, 7x², 5x + 7x<sup>3</sup>
+            </li>
+            <li>
+              If an algebraic expression contains two variables, say <b>x</b> and <b>y</b>, it is called an <b>algebraic expression in two variables</b>.
+              <br><b style="color: rgb(169, 62, 62);">Example:</b> xy<sup>3</sup>, 7x²y, 5xy - 3x<sup>3</sup>
+            </li>
+            <li>
+              If an algebraic expression contains three variables, say <b>x, y</b> and <b>z</b>, it is called an <b>algebraic expression in three variables</b>.
+              <br><b style="color: rgb(169, 62, 62);">Example:</b> xy<sup>3</sup>z, -2x²yz, 5xy - 3/7x<sup>3</sup>z
+            </li>
+          </ul>
+          <h2 style="color: rgb(157, 53, 255);">Degree of an algebraic Expression:</h2>
+          <p>
+            Degree of the term is the <b>sum of powers of its variables</b>.
+            <br><b style="color: rgb(169, 62, 62);">Example:</b> Degree of 2<span style="color: red;">x²</span><span style="color: green;">y</span><span style="color: blue;">z<sup>3</sup></span> sum of powers of its variables i.e. <span style="color: red;">2</span> + <span style="color: green;">1</span> + <span style="color: blue;">3</span> = 6
+            <br><br>
+            The degree of the term with the <b>highest degree</b> denotes the degree of the polynomial.
+            <br><br><b style="color: rgb(169, 62, 62);">Example:</b>
+            <br><img src="./assests/explaination/2.png" alt="" width="30%"><br>
+            <br>It can be seen that the degree of each term is mentioned and the degree of the polynomial is <b style="color: rgb(169, 62, 62);"><i>7(highest degree)</i></b>.
+            <br><br>
+
+            <br><b style="color: rgb(169, 62, 62);">Example:</b> Find the degree of : 2yx<sup>2</sup> + 3x<sup>2</sup>y<sup>3</sup>
+            <br>Degree of first term = 1 + 2 = 3
+            <br>Degree of second term = 2 + 3 = 5
+            <br>5 is the highest degree which is the degree of the polynomial.
+
+          </p>
+          <h2 style="color: rgb(157, 53, 255);">Addition of Algebraic Expressions:</h2>
+          <h3>To add algebraic expressions, we follow these steps:</h3>
+          <ol>
+            <li><b style="color: blue;">Identify Like Terms:</b>
+              <ul>
+                <li>Like terms have the same variables raised to the same powers.</li>
+                <li>For example, 3x and 5x are like terms, while 3x and 5y are not.</li>
+              </ul>
+            </li>
+            <li>
+              <b style="color: blue;">Combine Like Terms:</b>
+              <ul>
+                <li>Add or subtract the coefficients of the like terms. The variables and their exponents remain the same.</li>
+                <li><b>Example:</b> 3x + 5x = 8x</li>
+              </ul>
+            </li>
+          </ol>
+          <p>
+            <b style="color: rgb(169, 62, 62);">Example:</b> Add (3x² + 2x - 5) and (5x² - 4x + 1)
+          </p>
+          <ol>
+            <li><b style="color: blue;">Identify Like Terms:</b>
+              <ul>
+                <li>3x² and 5x² (both have x²)</li>
+                <li>2x and -4x (both have x)</li>
+                <li>-5 and 1 (both are constants)</li>
+              </ul>
+            </li>
+            <li>
+              (3x² + 5x²) + (2x - 4x) + (-5 + 1) = 8x² - 2x - 4
+           <br>
+           Therefore, (3x² + 2x - 5) + (5x² - 4x + 1) = 8x² - 2x - 4
+            </li>
+          </ol>
+          <p>
+            <b >Column Method: Add (3x² - 5 + 2x) and (5x² - 4x + 1)</b>
+            <br>We arrange the expressions in lines so that the like terms may be in the same vertical column, then add each column beginning with the left.
+
+          </p>
+          <br>
+          <pre style="font-size: 1.4rem;font-weight: 600;">
+            <span style="color: red;">
+            3x² + 2x - 5
+            5x² - 4x + 1</span>
+           ---------------
+            8x² - 2x - 4
+           ---------------</pre>
+          <h2 style="color: rgb(157, 53, 255);">
+            Subtraction of Algebraic Expressions:
+          </h2>
+          <h3>To subtract algebraic expressions, you follow these steps:</h3>
+          <ul>
+            <li>Change the signs of each term in the expression being subtracted. </li>
+            <li>Combine like terms and add it to the expression from which subtraction was to be made. </li>
+          </ul>
+          <p>
+            <b style="color: rgb(169, 62, 62);">Example:</b> Subtract 8x from 10x.
+
+          </p>
+          <ul>
+            <li>If you're subtracting 8x, it becomes -8x.</li>
+            <li>Now we add it to the expression: 10x + (-8x) = 10x - 8x = 2x</li>
+          </ul>
+          <p>
+            <b style="color: rgb(169, 62, 62);">Example:</b> Subtract (5x² - 4x + 1) from (3x² + 2x - 5)
+
+          </p>
+          <ol>
+            <li><b style="color: blue;">Change the signs of the terms in the expression being subtracted:</b>
+              <ul>
+                <li>
+                  (5x² - 4x + 1) becomes (-5x² + 4x - 1)
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b style="color: blue;">Combine Like Terms:</b>
+              <ul>
+                <li>(3x² + 2x - 5) + (-5x² + 4x - 1)</li>
+                <li>= (3x² - 5x²) + (2x + 4x) + (-5 - 1)</li>
+                <li>= -2x² + 6x - 6</li>
+              </ul>
+              Therefore, (3x² + 2x - 5) - (5x² - 4x + 1) = -2x² + 6x - 6
+            </li>
+          </ol>
+          <h3>Column Method of Subtraction: Subtract (5x² - 4x + 1) from (3x² - 5 + 2x) </h3>
+          <p>
+            <b style="color: blue;">Step 1: Combine Like Terms</b>
+<br>We combine the like terms vertically.
+
+          </p>
+          <pre style="font-size: 1.4rem;">
+            3x² + 2x - 5 
+            5x² - 4x + 1
+          ----------------
+
+          </pre>
+          <p>
+            <b style="color: blue;">Step 2: Change Signs of the Subtrahend</b><br>
+            When subtracting expressions, we change the signs of all terms in the expression being subtracted.
+            
+          </p>
+          <pre>
+                      <span style="color: red;font-weight: 600; font-size: 1.4rem;">
+                      3x² + 2x - 5 
+                      5x² - 4x + 1
+                    -     +    -</span>
+                    <span style="color: green;font-weight: 600; font-size: 1.4rem;">   ----------------
+                     -2x² + 6x - 6
+                   ----------------
+
+          </pre>
+          <p>
+            <b>
+              Therefore, (3x² + 2x - 5) - (5x² - 4x + 1) = -2x² + 6x - 6
+            </b>
+          </p>
+          <br><br><br>
+        </div>
+      </div> 
+    
+      
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

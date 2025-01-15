@@ -1,0 +1,165 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "A trinomial has ___ terms",
+    "options": [
+      " 2",
+      " 3",
+      " 1",
+      " 4"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q2",
+    "question": "The degree of the polynomial<br> 3x<sup>3</sup> - 5x<sup>2</sup>y + 2x<sup>2</sup>yz<sup>2</sup> is ____",
+    "options": [
+      " 3",
+      " 2",
+      " 4",
+      " 5"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q3",
+    "question": "Which of the following algebraic expressions is not a polynomial.",
+    "options": [
+      " x²y + 2x²y",
+      " 3x² + 2x - 3/5",
+      " 5x² - 4x + 1/z",
+      " xyz"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q4",
+    "question": "Write in algebraic language: Twice the sum of the square of x and half of the cube of y.",
+    "options": [
+      " 2x<sup>2</sup> + y<sup>3</sup>/2",
+      " x<sup>2</sup> + y<sup>3</sup>",
+      " x<sup>2</sup> - y<sup>3</sup>",
+      " 2x<sup>2</sup> - y<sup>3</sup>"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q5",
+    "question": "The coefficient of xy in 2x<sup>2</sup>y is ______",
+    "options": [
+      " 2xy",
+      " xy",
+      " 2x",
+      " 2y"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q6",
+    "question": "The number of terms in the expression<br> 7x² - 2xy - 5z + 9 is _______",
+    "options": [
+      " 1",
+      " 2",
+      " 3",
+      " 4"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q7",
+    "question": "The like term of 3x<sup>2</sup>y is______",
+    "options": [
+      " 3x<sup>2</sup>y<sup>2</sup>",
+      " 3xy<sup>2</sup>",
+      " 3xy",
+      " 9x<sup>2</sup>y"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q8",
+    "question": "Which of the following is a monomial",
+    "options": [
+      " 3",
+      " 9xyz",
+      " 5xy<sup>2</sup>",
+      " All the above"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q9",
+    "question": "Which of the following is a binomial",
+    "options": [
+      " 2x - 3y",
+      " (2x)(3y)",
+      " (2x)/(3y)",
+      " All of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q10",
+    "question": "Add 2x + 3y and 3y²",
+    "options": [
+      " 2x + 3y<sup>2</sup>",
+      " 2x + 6y<sup>2</sup>",
+      " 2x + 6y<sup>3</sup>",
+      " 2x + 3y + 3y<sup>2</sup>"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q11",
+    "question": "Which of the following is a trinomial",
+    "options": [
+      " 5x<sup>3</sup>/y<sup>2</sup>- 3y + 3y<sup>2</sup>",
+      " (5x<sup>3</sup>)(z<sup>4</sup>) - 3y + 3y<sup>2</sup>/z<sup>4</sup>",
+      " x + z - 9",
+      " All of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q12",
+    "question": "Subtract 5x² - 7x + 5 from x² + 3x + 5",
+    "options": [
+      " 4x² + 10x + 5",
+      " 4x² + 10x",
+      " 4x² - 4x + 5",
+      " -1x² + 10x + 0"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q13",
+    "question": "The degree of 29 is",
+    "options": [
+      " 0",
+      " 1",
+      " 2",
+      " does not exist"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q14",
+    "question": "Is 127 a polynomial?",
+    "options": [
+      " yes",
+      " no"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q15",
+    "question": "Add 2x² - 2x + 5 and -2x² - 6 - 6x",
+    "options": [
+      " -4x² + 4x - 1",
+      " 4x² + 4x - 1",
+      " -8x - 1",
+      " 4x² - 4x + 1"
+    ],
+    "correct": 2
+  }
+]
