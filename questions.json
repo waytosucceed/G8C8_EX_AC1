@@ -114,7 +114,7 @@
     "question": "Which of the following is a trinomial",
     "options": [
       " 5x<sup>3</sup>/y<sup>2</sup>- 3y + 3y<sup>2</sup>",
-      " (5x<sup>3</sup>)(z<sup>4</sup>) - 3y + 3y<sup>2</sup>/z<sup>4</sup>",
+      " (5x<sup>3</sup>)(z<sup>4</sup>) - 3y + 3y<sup>2</sup>/∛z<sup>4</sup>",
       " x + z - 9",
       " All of the above"
     ],
