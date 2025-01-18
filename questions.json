@@ -27,7 +27,7 @@
     "options": [
       " x²y + 2x²y",
       " 3x² + 2x - 3/5",
-      " 5x² - 4x + 1/z",
+      " 5x² - 4x + ∛z",
       " xyz"
     ],
     "correct": 2
