@@ -125,7 +125,7 @@
     "question": "Subtract 5x² - 7x + 5 from x² + 3x + 5",
     "options": [
       " 4x² + 10x + 5",
-      " 4x² + 10x",
+      " -4x² + 10x",
       " 4x² - 4x + 5",
       " -1x² + 10x + 0"
     ],
